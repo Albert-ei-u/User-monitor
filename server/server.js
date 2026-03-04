@@ -57,6 +57,7 @@ app.post('/add_user', (req, res) => {
     })
 })
 
+
 app.get('/users', (req, res) => {
     const sql = "SELECT * FROM user_details"
     db.query(sql, (err, result) => {
