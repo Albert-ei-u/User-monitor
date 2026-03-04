@@ -65,6 +65,7 @@ app.get('/users', (req, res) => {
         }
         return res.json(result)
     })
+    
 })
 
 app.get('/get_user/:id', (req, res) => {
